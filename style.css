@@ -1,0 +1,28 @@
+form {
+  width: 300px;
+  background: greenyellow;
+  margin: 0 auto;
+  box-shadow: 10px 10px 20px yellowgreen;
+  border-radius: 5px;
+  padding: 20px 0;
+
+  padding-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form input[type="submit"] {
+  background-color: blue;
+  border: none;
+  padding: 5px;
+
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+form .btn {
+  background-color: orange;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

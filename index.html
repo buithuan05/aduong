@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <form action="" method="get" enctype="multipart/form-data">
+        <label for="ten">User Name: </label>
+        <br />
+        <input
+          tabindex="1"
+          placeholder="abc"
+          type="text"
+          name="hoten"
+          id="ten"
+        />
+
+        <br />
+        <label for="password">Password: </label>
+        <br />
+        <input
+          placeholder="......"
+          type="password"
+          name="matkhau"
+          id="password"
+        />
+
+        <br />
+        <label for="file">tai len file: </label>
+        <br />
+        <input type="file" name="anh" id="file" />
+
+        <br />
+        <label for="checkbox">so thich: </label>
+        <br />
+        <input value="xemphim" type="checkbox" name="sothich" /> xem phim
+        <input value="hocbai" type="checkbox" name="sothich" /> hoc bai
+        <input value="ngu" type="checkbox" name="sothich" />ngu va ngu
+
+        <br />
+        <label for="">gioi tinh: </label>
+        <br />
+        <input tabindex="2" value="nam" type="radio" name="gioi tinh" /> nam
+        <input value="nu" type="radio" name="gioi tinh" /> nu
+        <input value="kb" type="radio" name="gioi tinh" />khong biet
+
+        <input type="hidden" value="12345@" />
+        <br />
+        <input class="btn" type="button" value="type button" />
+        <br />
+        <input type="submit" value="type submit" />
+
+        <textarea name="motasp" id="" cols="30" rows="10"></textarea>
+
+        <select name="tp" id="">
+          <option value="1">Ha noi</option>
+          <option value="2">Bac Giang</option>
+          <option value="3">Quang Ninh</option>
+          <option value="4">Bac Kan</option>
+          <option value="5">Ha Nam</option>
+          <option value="6">Bac Ninh</option>
+          <option selected value="7">Lang Son</option>
+          <option value="8">Cao bang</option>
+          <option value="9">Dien Bien</option>
+          <option value="10">Son La</option>
+        </select>
+
+        <input type="date" />
+        <input type="number" />
+        <input type="email" />
+      </form>
+    </div>
+  </body>
+</html>
